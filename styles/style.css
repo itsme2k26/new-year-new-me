@@ -37,6 +37,7 @@ header{
     font-size: 1.5em;
     border: none;
     background-color: rgba(241, 91, 34, 1);
+    color: white;
 }
 
 #intro-cont{
@@ -77,4 +78,109 @@ header{
     display: flex;
     gap: 50%;
     /* border: 1px solid red; */
+}
+
+/* skills section */
+#skills{
+    /* border: 1px solid red; */
+    margin-top: 100px;
+}
+.skills-container .container-title{
+    text-align: center;
+    font-size: 48px;
+    justify-content: center;
+}
+.skills-type{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.s-img{
+    /* border: 1px solid  rebeccapurple; */
+}
+.s-img img{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+#motivation{
+   
+}
+.motivation-cont{
+    max-width: 1140px;
+    height: 300px;
+    margin: 200px auto;
+}
+.motivation-cont{
+    background: url("../images/watch.png");
+}
+.m-heading{
+    margin-left: 450px;
+    position: absolute;
+    margin-top: 35px;
+}
+.m-heading h2{
+    font-size: 40px;
+    max-width: 459px;
+    color: white;
+}
+.m-heading .btn{
+    background: white;
+    color: black;
+}
+/* FOOTER */
+
+footer{
+    background-color: rgb(0, 0, 0);
+    height: 600px;
+}
+
+.footer-container{
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+}
+.f-left{
+    max-width: 485px;
+    margin-top: 130px;
+}
+.f-left h2{
+    font-size: 45px;
+}
+.kichu kotha{
+    padding-top: 16px;
+    padding-bottom: 24px;
+    width: 485px;
+    font-size: 16px;
+    line-height: 26px;
+}
+.social{
+    display: flex;
+    gap: 18px;
+}
+.f-right{
+    margin-top: 130px;
+}
+.f-right h3{
+    font-size: 25px;
+}
+.f-right input{
+    width: 320px;
+    height: 64px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 18px;   
+}
+.f-right .btn{
+    margin-top: 20px;
+    background-color: white;
+    color: tomato;
 }
